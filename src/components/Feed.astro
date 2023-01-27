@@ -1,4 +1,24 @@
 ---
 import LargeFeedCard from "./LargeFeedCard.astro";
+import SmallFeedCard from "./SmallFeedCard.astro";
 ---
-<LargeFeedCard />
+
+<div class="grid grid-cols-3 gap-6 content-end">
+    <div class="col-span-2">
+        <div class="grid grid-cols-3 gap-6">
+            <div>
+                <SmallFeedCard />
+            </div>
+            <div>
+                <SmallFeedCard />
+            </div>
+            <div>
+                <SmallFeedCard />
+            </div>
+        </div>
+    </div>
+    <div>
+        <LargeFeedCard />
+    </div>
+</div>
+

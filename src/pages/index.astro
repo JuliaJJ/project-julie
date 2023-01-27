@@ -6,6 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import Intro from '../components/Intro.astro';
 import Elsewhere from '../components/Elsewhere.astro';
 import Contact from '../components/Contact.astro';
+import Feed from '../components/Feed.astro';
 ---
 
 <!DOCTYPE html>
@@ -14,11 +15,25 @@ import Contact from '../components/Contact.astro';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
-		<main>
-			<Intro />
-			<Elsewhere />
-			<Contact />
+		<div>
+			<Header />
+		</div>
+		<main class="container mx-auto px-1">
+			<div class="grid grid-cols-3 gap-6">
+				<div class="col-span-2 col-end-3">
+					<Intro />
+				</div>
+				<div class="col-span-3">
+					<Elsewhere />
+				</div>	
+				<div class="col-span-3">
+					<Feed />
+				</div>
+				<div class="col-span-2 col-end-3">
+					<Contact />
+				</div>
+			</div>
+<!--		
 			<p>Here are a few ideas on how to get started with the template:</p>
 			<ul>
 				<li>Edit this page in <code>src/pages/index.astro</code></li>
@@ -27,6 +42,7 @@ import Contact from '../components/Contact.astro';
 				<li>Check out the included blog posts in <code>src/pages/blog/</code></li>
 				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
 			</ul>
+-->
 		</main>
 		<Footer />
 	</body>
