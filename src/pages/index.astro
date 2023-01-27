@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import LargeFeedCard from '../components/LargeFeedCard.astro';
+import Intro from '../components/Intro.astro';
 ---
 
 <!DOCTYPE html>
@@ -14,15 +15,7 @@ import LargeFeedCard from '../components/LargeFeedCard.astro';
 	<body>
 		<Header />
 		<main>
-			<Intro>
-				<img src="" alt="Julie Johnston"/>
-				<h1>Hi, I'm Julie.</h1>
-				<p>In this space, I'm going to write some pithy paragraph
-					about how I'm endlessly entertaining and a joy to be
-					around. To the people who know me, it will be comical
-					puffery. But to the Internet writ large, I'll sound like a 
-					genius and a delight.</p>
-			</Intro>
+			<Intro />
 			<LargeFeedCard />
 			<p>Here are a few ideas on how to get started with the template:</p>
 			<ul>
