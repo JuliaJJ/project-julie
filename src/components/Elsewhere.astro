@@ -1,4 +1,23 @@
 ---
+import StatusCard from "./StatusCard.astro";
+
 // imports
 ---
-<p>Icons and statuses</p>
+<div class="grid grid-cols-3 gap-6 mb-16">
+    <div class="justify-end" style="display: flex;">
+        <ul class="icons">
+            <li><img src="" alt="Instagram"></li>
+            <li>Twitter</li>
+            <li>Mastodon</li>
+            <li>Twitch</li>
+            <li>Spotify</li>
+            <li>Reddit</li>
+            <li>Github</li>
+            <li>Discord</li>
+        </ul>
+    </div>
+    <div class="col-span-2">
+        <StatusCard />
+        <StatusCard />
+    </div>
+</div>

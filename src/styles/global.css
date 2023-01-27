@@ -54,11 +54,14 @@
 	font-display: swap;
 }
 
+
+
+
 body {
+	background-color: #E7EDF0;
 	margin: auto;
 	padding: 20px;
 	text-align: left;
-	background-color: #fff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
@@ -75,7 +78,7 @@ b {
 	color: #222;
 }
 a {
-	color: #3273dc;
+	color: #0A4964;
 }
 nav a {
 	margin-right: 10px;
@@ -113,4 +116,44 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
+}
+
+/* The new hotness */
+
+
+.name-link {
+	font-family: 'DottiesChocolate';
+	font-size: 1.5rem;
+}
+
+.big-name {
+	color: #0A4964;
+	display: block;
+	font-size: 7rem;
+	font-family: 'DottiesChocolate';
+	font-weight: 900;
+	line-height: 5.5rem;
+	margin-left:-70px;
+}
+
+.pattern-container {
+	background-color: #E7EDF0;
+	opacity: 0.2;
+	background-size: 10px 10px;
+	background-image:  repeating-linear-gradient(to right, #CEDBE0, #CEDBE0 1px, #E7EDF0 1px, #E7EDF0);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+ul.icons {
+	text-align: right;
+}
+
+ul.icons li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: right;
 }
