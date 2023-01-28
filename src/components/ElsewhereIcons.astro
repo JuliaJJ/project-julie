@@ -1,13 +1,20 @@
 ---
 import { Icon } from 'astro-icon';
 const items = {
-    icon: ["instagram", "twitter", "mastodon", "linkedin", "twitch", "spotify", "reddit", "github", "discord"],
-    location: ["https://www.instagram.com/projectjuliedotcom/", "https://twitter.com/Julia_JJ", "https://mastodon.social/@juliewithaj", "https://www.linkedin.com/in/johnstonjulie/", "https://www.twitch.tv/juliejohnstonco", "https://open.spotify.com/user/1266221615?si=c739707cb90e41ff", "https://www.reddit.com/user/Charming-Error-4565", "https://github.com/JuliaJJ", "https://discordapp.com/users/849820804341956619"],
+    instagram: "https://www.instagram.com/projectjuliedotcom/",
+    twitter: "https://twitter.com/Julia_JJ",
+    mastodon: "https://mastodon.social/@juliewithaj",
+    linkedin: "https://www.linkedin.com/in/johnstonjulie/",
+    twitch: "https://www.twitch.tv/juliejohnstonco",
+    spotify: "https://open.spotify.com/user/1266221615?si=c739707cb90e41ff",
+    reddit: "https://www.reddit.com/user/Charming-Error-4565",
+    github: "https://github.com/JuliaJJ",
+    discord: "https://discordapp.com/users/849820804341956619",
 };
 ---
 
 <div class="icons">
-    {items.map((item) => (
-        <a href={item.location} class="inline-block ml-4 mb-2 w-6"><Icon name={item.icon} /></a>
-    ))}
+    {Object.entries(items).map(([icon, location]) => 
+        <a href={location} class="inline-block ml-4 mb-2 w-6"><Icon name={icon} /></a>
+    )}
 </div>
