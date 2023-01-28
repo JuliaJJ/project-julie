@@ -78,7 +78,7 @@ b {
 	color: #222;
 }
 a {
-	color: #0A4964;
+	color: #0c4a6e;
 }
 nav a {
 	margin-right: 10px;
@@ -127,7 +127,6 @@ blockquote {
 }
 
 .big-name {
-	color: #0A4964;
 	display: block;
 	font-size: 7rem;
 	font-family: 'DottiesChocolate';
@@ -137,10 +136,10 @@ blockquote {
 }
 
 .pattern-container {
-	background-color: #E7EDF0;
+	background-color: #f0f9ff;
 	opacity: 0.2;
 	background-size: 10px 10px;
-	background-image:  repeating-linear-gradient(to right, #CEDBE0, #CEDBE0 1px, #E7EDF0 1px, #E7EDF0);
+	background-image:  repeating-linear-gradient(to right, #e0f2fe, #e0f2fe 1px, #f0f9ff 1px, #f0f9ff);
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
