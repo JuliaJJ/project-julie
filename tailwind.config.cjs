@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				'sans': ['DottiesVanilla', 'Verdana', 'sans-serif'],
+				'display': ['DottiesChocolate', 'Verdana', 'sans-serif'],
 			}
 		},
 	},

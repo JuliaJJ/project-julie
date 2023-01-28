@@ -1,16 +1,17 @@
 ---
-// imports
+import { Icon } from 'astro-icon';
 ---
 <!-- HTML here -->
 <!-- post card -->
-<div class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4">
-    <div class="flex items-start p-5">
-       <img class="w-16 h-16 object-cover mr-4 shadow" src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="media">
-       <div class="">
-          <div class="flex items-center justify-between">
-             <h2 class="text-lg font-bold text-gray-900 -mt-1">Media Title Goes Here</h2>      
-          </div>
-          <p class="text-gray-700">Subtitle</p>
-       </div>
-    </div>
- </div>
+<div class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4 relative">
+   <a href="#" class="inline-block ml-4 mb-2 w-8 absolute top-5 right-5 w-6"><Icon name="spotify" /></a>
+   <div class="flex items-start p-5">
+      <img class="w-16 h-16 object-cover mr-4 shadow" src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="media">
+      <div class="">
+         <div class="flex items-center justify-between">
+            <h2 class="text-lg font-bold text-gray-900 -mt-1">Media Title Goes Here</h2>
+         </div>
+         <p class="text-gray-700">Subtitle</p>
+      </div>
+   </div>
+</div>
