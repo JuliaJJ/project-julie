@@ -58,7 +58,7 @@
 
 
 body {
-	background-color: #E7EDF0;
+	background-color: #fff;
 	margin: auto;
 	padding: 20px;
 	text-align: left;
@@ -137,7 +137,7 @@ blockquote {
 
 .pattern-container {
 	background-color: #f0f9ff;
-	opacity: 0.2;
+	opacity: 0.25;
 	background-size: 10px 10px;
 	background-image:  repeating-linear-gradient(to right, #e0f2fe, #e0f2fe 1px, #f0f9ff 1px, #f0f9ff);
 	position: fixed;

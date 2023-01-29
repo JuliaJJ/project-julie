@@ -1,26 +1,28 @@
 ---
-//imports
+
 ---
 <div class="grid grid-cols-3 gap-6">
-    <div class="bg-white shadow-lg rounded-lg p-5 mb-16 col-span-2">
+    <div class="bg-sky-50 shadow-lg rounded-lg p-5 mb-16 col-span-2">
         <p class="mb-6">Some text telling people to contact me. It will likely be humorous, but... anything can happen! I should probably try to at least make it two lines, for a good balance. </p>
-        <div class="grid grid-cols-2 gap-6">
-            <div class="flex flex-col">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="border-2 p-2 rounded-md">
+        <form>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="flex flex-col">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="border-2 p-2 rounded-md" required>
+                </div>
+                <div class="flex flex-col">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="border-2 p-2 rounded-md" required>
+                </div>
+                <div class="col-span-2 flex flex-col">
+                    <label for="message">Send a message</label>
+                    <textarea id="message" name="message" rows="10" class="border-2 p-2 rounded-md" required>Be nice.</textarea>
+                </div>
+                <div>
+                    <button type="submit" class="bg-sky-900 hover:bg-sky-600 text-white font-bold py-2 px-8 rounded">Send</button>
+                </div>
             </div>
-            <div class="flex flex-col">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" class="border-2 p-2 rounded-md">
-            </div>
-            <div class="col-span-2 flex flex-col">
-                <label for="message">Send a message</label>
-                <textarea id="message" name="message" rows="10" class="border-2 p-2 rounded-md">Be nice.</textarea>
-            </div>
-            <div>
-                <button class="bg-sky-900 hover:bg-sky-600 text-white font-bold py-2 px-8 rounded">Send</button>
-            </div>
-        </div>
+        </form>
     </div>
     <div>
         <h3 class="text-2xl mt-16">get in<span class="font-display text-5xl block text-sky-900">touch</span></h3>
