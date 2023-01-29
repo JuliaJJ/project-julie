@@ -19,17 +19,21 @@ import Feed from '../components/Feed.astro';
 			<div>
 				<Header />
 			</div>
-			<main class="container mx-auto px-1">
-				<div class="grid grid-cols-3 gap-6">
-					<div class="col-span-2 col-end-3">
-						<Intro />
+			<main>
+				<div class="container mx-auto px-1">
+					<div class="grid grid-cols-3 gap-6">
+						<div class="col-span-2 col-end-3">
+							<Intro />
+						</div>
+						<div class="col-span-3">
+							<Elsewhere />
+						</div>
 					</div>
-					<div class="col-span-3">
-						<Elsewhere />
-					</div>	
-					<div class="col-span-3">
-						<Feed />
-					</div>
+				</div>
+				<div class="col-span-3">
+					<Feed />
+				</div>
+				<div class="container mx-auto px-1">
 					<div class="col-span-3">
 						<Contact />
 					</div>
