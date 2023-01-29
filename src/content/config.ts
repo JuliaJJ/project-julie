@@ -2,7 +2,6 @@ import { defineCollection, z } from 'astro:content';
 
 export const collections = { 
 	'blog': defineCollection({
-		// Type-check frontmatter using a schema
 		schema: z.object({
 			title: z.string(),
 			description: z.string(),
@@ -16,17 +15,15 @@ export const collections = {
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
 			heroImage: z.string().optional(),
+			thumbnail: z.string(),
+			tags: z.array(z.string()),
+			mediaType: z.string(),
 		}),
 	}),
 	'feed': defineCollection({
-		// Type-check frontmatter using a schema
 		schema: z.object({
 			title: z.string(),
 			description: z.string(),
-			image: z.object({
-				src: z.string(),
-				alt: z.string(),
-			  }),
 			// Transform string to Date object
 			pubDate: z
 				.string()
@@ -36,6 +33,10 @@ export const collections = {
 				.string()
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
+			heroImage: z.string().optional(),
+			thumbnail: z.string(),
+			tags: z.array(z.string()),
+			mediaType: z.string(),
 		}),
 	}),
 };
