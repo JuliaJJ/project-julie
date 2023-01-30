@@ -3,8 +3,24 @@ import LargeFeedCard from "./LargeFeedCard.astro";
 import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
 
-const allFeedPosts = await Astro.glob('../content/feed/*.md');
+const allFeedPosts = import.meta.glob('../content/feed/*.md');
 ---
+
+<!--
+    TO DO:
+    - query all feed posts
+    - display most recent feed post in large card template
+    - display all but most recent feed post in small card template
+    - one post per card
+    - cards only display frontmatter; additional content is in tooltip/popover display by clicking/tapping on plus icon on each card
+    - cards render in reverse chronological order, right to left
+    - posts scroll off both edges as navigating, but on load most recent post card is at left browser window edge
+    - need archive page to display all feed posts, feed posts by category (accessed from icon at upper right of each card) - use in page filters?
+    - on mobile, post cards will stack with most recent at top and descending in reverse chronological order. 
+    - post limit for display on landing page is eight; "more posts" link leads to archive page
+ -->
+
+
 <h3 id="feed" class="text-2xl -mb-8">the <span class="font-display text-5xl text-sky-900">feed</span></h3>
 <div class="grid grid-cols-3 gap-6 items-end mb-40">
     <div class="col-span-2">
