@@ -41,5 +41,9 @@ setInterval(() => {
       </div>
    </div>
    {:else}
-   <!-- -->
+   <div class="flex bg-sky-50 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4 relative hover:bg-white">
+      <div class="flex w-full items-start p-5">
+         <p>Loading...</p>
+      </div>
+   </div>
 {/if}
