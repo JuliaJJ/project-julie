@@ -15,9 +15,6 @@ export const collections = {
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
 			heroImage: z.string().optional(),
-			thumbnail: z.string(),
-			tags: z.array(z.string()),
-			mediaType: z.string(),
 		}),
 	}),
 	'feed': defineCollection({
