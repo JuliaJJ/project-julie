@@ -1,6 +1,6 @@
 ---
 title: "Mythic Quest"
-subtitle: "Apple TV="
+subtitle: "Apple TV+"
 pubDate: "Jan 23 2023"
 thumbnail: "/cover-mythic-quest.jpg"
 mediaType: "television"
