@@ -1,11 +1,11 @@
 ---
-import StatusCard from "./StatusCard.svelte";
+import SpotifyCard from "./SpotifyCard.svelte";
 import ElsewhereIcons from "./ElsewhereIcons.astro";
 ---
 
 <div class="grid grid-cols-3 gap-6 mb-36">
     <ElsewhereIcons />
     <div class="col-span-2">
-        <StatusCard  client:only="svelte" />
+        <SpotifyCard  client:only="svelte" />
     </div>
 </div>
