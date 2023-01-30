@@ -31,6 +31,7 @@ export const collections = {
 				.transform((val) => new Date(val)),
 			thumbnail: z.string(),
 			mediaType: z.string(),
+			url: z.string(),
 		}),
 	}),
 };
