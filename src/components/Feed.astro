@@ -3,7 +3,9 @@ import LargeFeedCard from "./LargeFeedCard.astro";
 import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
 
-const allFeedPosts = import.meta.glob('../content/feed/*.md');
+import { getCollection, getEntryBySlug } from "astro:content";
+const allFeedPosts = await getCollection('feed');
+const oneFeedPost = await getEntryBySlug('feed', 'hacks');
 ---
 
 <!--
