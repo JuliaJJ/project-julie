@@ -3,10 +3,10 @@ import LargeFeedCard from "./LargeFeedCard.astro";
 import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
 
-// import { getCollection } from "astro:content";
-// const allFeedPosts = await getCollection('feed');
+import { getCollection } from "astro:content";
+const allFeedPosts = await getCollection('feed');
 // const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pubDate ? a : b);
-// console.log(latestFeedPost);
+console.log(allFeedPosts);
 
 ---
 

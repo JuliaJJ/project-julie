@@ -1,5 +1,10 @@
 ---
 import { Icon } from 'astro-icon';
+
+import { getCollection } from "astro:content";
+const allFeedPosts = await getCollection('feed');
+console.log(allFeedPosts);
+
 ---
 
 <div class="flex bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
