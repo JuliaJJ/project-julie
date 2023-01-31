@@ -21,10 +21,13 @@ const allFeedPosts = import.meta.glob('../content/feed/*.md');
  -->
 
 
-<h3 id="feed" class="text-2xl -mb-8">the <span class="font-display text-5xl text-sky-900">feed</span></h3>
-<div class="grid grid-cols-3 gap-6 items-end mb-40">
+<h3 id="feed" class="text-2xl mb-4 lg:-mb-8">the <span class="font-display text-5xl text-sky-900">feed</span></h3>
+<div class="grid lg:grid-cols-3 gap-6 items-end mb-40">
+    <div>
+        <LargeFeedCard />
+    </div>
     <div class="col-span-2">
-        <div class="grid grid-cols-3 gap-6 -ml-24">
+        <div class="grid lg:grid-cols-3 gap-6 lg:-ml-24">
             <div>
                 <SmallFeedCard />
             </div>
@@ -35,9 +38,6 @@ const allFeedPosts = import.meta.glob('../content/feed/*.md');
                 <SmallFeedCard />
             </div>
         </div>
-    </div>
-    <div>
-        <LargeFeedCard />
     </div>
     <div>
         <a href="#"><Icon name="circle-arrow-left-solid" class="w-4 inline-block hover:fill-sky-900" /> older</a>
