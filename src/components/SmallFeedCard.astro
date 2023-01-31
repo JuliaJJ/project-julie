@@ -13,7 +13,7 @@ console.log(allFeedPosts);
          <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-plus-solid" class="hover:fill-sky-900" /></a>
          <a href="#" class="inline-block ml-4 mb-2 absolute top-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="hover:fill-sky-900" /></a>
          <div class="flex flex-col items-start p-5 w-full">
-            <a href={`${feedEntry.data.url}`}><img class="w-16 object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
+            <a href={`${feedEntry.data.url}`}><img class="h-16 object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
             <div class="w-full">
                <div class="items-center justify-between">
                   <a href={`${feedEntry.data.url}`}><h2 class="text-sm font-semibold text-gray-900 -mt-1">{feedEntry.data.title}</h2></a>      
