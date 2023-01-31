@@ -9,15 +9,15 @@ console.log(latestFeedPost);
 ---
 <div class="flex bg-sky-50 hover:bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative">
    <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-plus-solid" class="hover:fill-sky-900" /></a>
-   <a href="#" class="inline-block ml-4 mb-2 absolute top-5 right-5 w-6"><Icon name={`${latestFeedPost.data.mediaType}`} class="hover:fill-sky-900" /></a>
+   <a href={`${latestFeedPost.data.url}`} class="inline-block ml-4 mb-2 absolute top-5 right-5 w-6"><Icon name={`${latestFeedPost.data.mediaType}`} class="hover:fill-sky-900" /></a>
     <div class="flex flex-col items-start p-5 w-full">
        <img class="h-24 object-cover mb-4 shadow" src={`${latestFeedPost.data.thumbnail}`} alt="media">
        <div class="w-full">
           <div class="items-center justify-between">
-             <h2 class="text-lg font-bold text-gray-900 -mt-1">`${latestFeedPost.data.title}`</h2>      
+             <h2 class="text-lg font-bold text-gray-900 -mt-1">${latestFeedPost.data.title}</h2>      
           </div>
-          <p class="text-gray-700">`${latestFeedPost.data.subtitle}`</p>
-          <small class="text-sm text-gray-700 float-right">`${latestFeedPost.data.pubDate}`</small>
+          <p class="text-gray-700">${latestFeedPost.data.subtitle}</p>
+          <small class="text-sm text-gray-700 float-right">{latestFeedPost.data.pubDate.toDateString()}</small>
        </div>
     </div>
  </div>
