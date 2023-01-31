@@ -11,7 +11,7 @@ console.log(latestFeedPost);
    <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-plus-solid" class="hover:fill-sky-900" /></a>
    <a href="#" class="inline-block ml-4 mb-2 absolute top-5 right-5 w-6"><Icon name="film" class="hover:fill-sky-900" /></a>
     <div class="flex flex-col items-start p-5 w-full">
-       <img class="w-24 h-24 object-cover mb-4 shadow" src="" alt="media">
+       <img class="w-24 h-24 object-cover mb-4 shadow" src={`${latestFeedPost.data.thumbnail}`} alt="media">
        <div class="w-full">
           <div class="items-center justify-between">
              <h2 class="text-lg font-bold text-gray-900 -mt-1">Media Title Goes Here</h2>      
