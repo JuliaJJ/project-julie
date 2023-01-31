@@ -22,24 +22,26 @@ const allFeedPosts = import.meta.glob('../content/feed/*.md');
 
 
 <h3 id="feed" class="text-2xl mb-4 lg:-mb-8">the <span class="font-display text-5xl text-sky-900">feed</span></h3>
-<div class="grid lg:grid-cols-3 gap-6 items-end mb-40">
-    <div>
-        <LargeFeedCard />
-    </div>
-    <div class="col-span-2">
-        <div class="grid lg:grid-cols-3 gap-6 lg:-ml-24">
-            <div>
-                <SmallFeedCard />
-            </div>
-            <div>
-                <SmallFeedCard />
-            </div>
-            <div>
-                <SmallFeedCard />
+<div class="mb-12 lg:mb-40">
+    <div class="grid lg:grid-cols-3 gap-6 items-end">
+        <div class="col-span-2 lg:col-auto lg:order-last">
+            <LargeFeedCard />
+        </div>
+        <div class="col-span-2">
+            <div class="grid lg:grid-cols-3 gap-6 lg:-ml-24">
+                <div>
+                    <SmallFeedCard />
+                </div>
+                <div>
+                    <SmallFeedCard />
+                </div>
+                <div>
+                    <SmallFeedCard />
+                </div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="mt-4">
         <a href="#"><Icon name="circle-arrow-left-solid" class="w-4 inline-block hover:fill-sky-900" /> older</a>
     </div>
 </div>
