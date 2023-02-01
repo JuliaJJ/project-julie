@@ -16,20 +16,23 @@ import { Icon } from 'astro-icon';
  -->
 
 
-<h3 id="feed" class="text-2xl mb-4 lg:-mb-8">the <span class="font-display text-5xl text-sky-900">feed</span></h3>
+<div class="mb-4 lg:-mb-8">
+    <h3 id="feed" class="text-2xl"><span class="text-2x1">the </span><span class="font-display text-5xl text-sky-900">feed</span></h3>
+    <p class="text-gray-400 uppercase text-xs tracking-wider">all that's been recently consumed</p>
+</div>
 <div class="mb-12 lg:mb-40">
     <div class="grid lg:grid-cols-3 gap-6 items-end">
         <div class="col-span-2 lg:col-auto lg:order-last">
             <LargeFeedCard />
         </div>
         <div class="col-span-2">
-            <div class="flex grid lg:grid-cols-3 gap-6 place-items-end items-stretch">
+            <div class="flex grid lg:grid-cols-2 gap-6 place-items-end items-stretch">
                 <SmallFeedCard />
             </div>
         </div>
     </div>
     <div class="mt-4">
-        <a href="/feedarchive/"><Icon name="circle-arrow-left-solid" class="w-4 inline-block hover:fill-sky-900" /> older</a>
+        <a href="/feedarchive/" class="text-gray-400 hover:text-sky-900 fill-gray-400 hover:fill-sky-900"><Icon name="circle-arrow-left-solid" class="w-4 inline-block" /> older</a>
     </div>
 </div>
 
