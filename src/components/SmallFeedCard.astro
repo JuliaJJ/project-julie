@@ -2,8 +2,11 @@
 import { Icon } from 'astro-icon';
 
 import { getCollection } from "astro:content";
-const allFeedPosts = await getCollection('feed');
-console.log(allFeedPosts);
+let allFeedPosts = await getCollection('feed');
+allFeedPosts.sort((a, b) => {
+   return b.data.pubDate - a.data.pubDate;
+});
+
 
 ---
 
