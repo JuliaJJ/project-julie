@@ -6,6 +6,7 @@ let allFeedPosts = await getCollection('feed');
 allFeedPosts.sort((a, b) => {
    return a.data.pubDate - b.data.pubDate;
 });
+allFeedPosts.pop();
 
 
 ---

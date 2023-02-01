@@ -1,12 +1,14 @@
 ---
+import { getCollection } from "astro:content";
 import LargeFeedCard from "./LargeFeedCard.astro";
 import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
 
-import { getCollection } from "astro:content";
-const allFeedPosts = await getCollection('feed');
-// const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pubDate ? a : b);
-console.log(allFeedPosts);
+console.log("blah");
+
+const allFeedPosts = getCollection('feed');
+// // const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pubDate ? a : b);
+// console.log(allFeedPosts);
 
 ---
 
@@ -30,8 +32,8 @@ console.log(allFeedPosts);
         <div class="col-span-2 lg:col-auto lg:order-last">
             <LargeFeedCard />
         </div>
-        <div class="col-span-2">
-            <div class="grid lg:grid-cols-3 gap-6 lg:-ml-24">
+        <div class="col-span-2 content-end">
+            <div class="grid lg:grid-cols-3 gap-6">
                 <SmallFeedCard />
             </div>
         </div>

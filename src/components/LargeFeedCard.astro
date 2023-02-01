@@ -4,7 +4,6 @@ import { Icon } from 'astro-icon';
 import { getCollection } from "astro:content";
 const allFeedPosts = await getCollection('feed');
 const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pubDate ? a : b);
-console.log(latestFeedPost);
 
 ---
 <div class="flex bg-sky-50 hover:bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative">
