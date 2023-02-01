@@ -12,7 +12,7 @@ import { Icon } from 'astro-icon';
     - cards only display frontmatter; additional content is in tooltip/popover display by clicking/tapping on plus icon on each card
     - need archive page to display all feed posts, feed posts by category (accessed from icon at upper right of each card) - use in page filters?
     - on mobile, post cards will stack with most recent at top and descending in reverse chronological order. 
-    - post limit for display on landing page is 3+1; "more posts" link leads to archive page
+    - post limit for display on landing page is 3+1; "older" link leads to archive page
  -->
 
 
@@ -23,7 +23,7 @@ import { Icon } from 'astro-icon';
             <LargeFeedCard />
         </div>
         <div class="col-span-2">
-            <div class="flex grid lg:grid-cols-3 gap-6 place-items-end">
+            <div class="flex grid lg:grid-cols-3 gap-6 place-items-end items-stretch">
                 <SmallFeedCard />
             </div>
         </div>
