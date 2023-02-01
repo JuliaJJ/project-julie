@@ -1,5 +1,5 @@
 ---
-title: "They Fought for Diversity in Gaming. Then the Abuse Began"
+title: "They Fought for Diversity in Gaming. Then the Abuse Began."
 subtitle: "Rolling Stone"
 pubDate: "Jan 27 2023"
 thumbnail: "/cover-they-fought-for-diversity-in-gaming.jpg"
