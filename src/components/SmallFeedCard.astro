@@ -4,7 +4,7 @@ import { Icon } from 'astro-icon';
 import { getCollection } from "astro:content";
 let allFeedPosts = await getCollection('feed');
 allFeedPosts.sort((a, b) => {
-   return b.data.pubDate - a.data.pubDate;
+   return a.data.pubDate - b.data.pubDate;
 });
 
 
