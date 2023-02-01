@@ -1,28 +1,18 @@
 ---
-import { getCollection } from "astro:content";
+
 import LargeFeedCard from "./LargeFeedCard.astro";
 import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
-
-console.log("blah");
-
-const allFeedPosts = getCollection('feed');
-// // const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pubDate ? a : b);
-// console.log(allFeedPosts);
 
 ---
 
 <!--
     TO DO:
-    - display all but most recent feed post in small card template
-    - one post per card
     - small card height is determined by height of largest card; pubDate should be fixed to bottom right corner
     - cards only display frontmatter; additional content is in tooltip/popover display by clicking/tapping on plus icon on each card
-    - cards render in reverse chronological order, right to left
-    - posts scroll off both edges as navigating, but on load most recent post card is at left browser window edge
     - need archive page to display all feed posts, feed posts by category (accessed from icon at upper right of each card) - use in page filters?
     - on mobile, post cards will stack with most recent at top and descending in reverse chronological order. 
-    - post limit for display on landing page is eight; "more posts" link leads to archive page
+    - post limit for display on landing page is 3+1; "more posts" link leads to archive page
  -->
 
 
@@ -32,8 +22,8 @@ const allFeedPosts = getCollection('feed');
         <div class="col-span-2 lg:col-auto lg:order-last">
             <LargeFeedCard />
         </div>
-        <div class="col-span-2 content-end">
-            <div class="grid lg:grid-cols-3 gap-6">
+        <div class="col-span-2">
+            <div class="flex grid lg:grid-cols-3 gap-6 place-items-end">
                 <SmallFeedCard />
             </div>
         </div>
