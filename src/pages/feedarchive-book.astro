@@ -6,6 +6,7 @@ import FilterNav from '../components/FilterNav.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Icon } from 'astro-icon';
 import { getCollection } from "astro:content";
+import FeedArchiveCard from '../components/FeedArchiveCard.astro';
 
 const allFeedPosts = await getCollection('feed');
 allFeedPosts.sort((a, b) => {
@@ -39,26 +40,11 @@ const bookFeedPosts = allFeedPosts.filter(post => {
                     </div>
                     <div class="flex grid lg:grid-cols-3 gap-6 place-items-end items-stretch">   
                         {bookFeedPosts.map(feedEntry => (
-                            <div class="flex col-auto w-full">
-                            <div class="flex-1 bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
-                                <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></a>
-                                <a href="#" class="inline-block ml-4 mb-2 absolute top-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
-                                <div class="items-start p-5 w-full h-full">
-                                    <a href={`${feedEntry.data.url}`} target="_blank"><img class="h-16 object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
-                                    <div class="w-full">
-                                        <div class="items-center justify-between">
-                                        <h2 class="text-sm font-semibold text-gray-900 -mt-1"><a href={`${feedEntry.data.url}`} target="_blank" class="text-gray-900 hover:text-sky-900">{feedEntry.data.title}</a></h2>    
-                                        </div>
-                                        <p class="text-sm text-gray-700 mb-3">{feedEntry.data.subtitle}</p>
-                                        <small class="text-xs text-gray-700 float-right mb-3 mt-auto">{feedEntry.data.pubDate.toDateString()}</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                            <FeedArchiveCard feedEntry={feedEntry} />
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </main>
+            </main>
         <Footer />
 	</body>
 </html>
