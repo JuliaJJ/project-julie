@@ -6,9 +6,14 @@ import FilterNav from '../components/FilterNav.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Icon } from 'astro-icon';
 import { getCollection } from "astro:content";
+
 const allFeedPosts = await getCollection('feed');
 allFeedPosts.sort((a, b) => {
    return b.data.pubDate - a.data.pubDate;
+});
+
+const bookFeedPosts = allFeedPosts.filter(post => {
+    return post.data.mediaType == "book"
 });
 
 ---
@@ -33,7 +38,7 @@ allFeedPosts.sort((a, b) => {
                         <FilterNav />
                     </div>
                     <div class="flex grid lg:grid-cols-3 gap-6 place-items-end items-stretch">   
-                        {allFeedPosts.map(feedEntry => (
+                        {bookFeedPosts.map(feedEntry => (
                             <div class="flex col-auto w-full">
                             <div class="flex-1 bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
                                 <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></a>
