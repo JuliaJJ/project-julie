@@ -39,7 +39,7 @@ const filmFeedPosts = allFeedPosts.filter(post => {
                         </div>
                         <FilterNav />
                     </div>
-                    <div class="flex grid lg:grid-cols-3 gap-6 place-items-end items-stretch">   
+                    <div class="columns-3 space-y-6">   
                         {filmFeedPosts.map(feedEntry => (
                             <FeedArchiveCard feedEntry={feedEntry} />
                         ))}
