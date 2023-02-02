@@ -5,7 +5,7 @@ const { feedEntry } = Astro.props;
 <div class="flex col-auto w-full break-inside-avoid-column">
     <div class="flex-1 bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
         <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></a>
-        <a href="#" class="inline-block ml-4 mb-2 absolute bottom-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
+        <a href={`/feedarchive-${feedEntry.data.mediaType}/`} class="inline-block ml-4 mb-2 absolute bottom-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
         <div class="items-start p-5 w-full h-full">
             <a href={`${feedEntry.data.url}`} target="_blank"><img class="object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
             <div class="w-full">
