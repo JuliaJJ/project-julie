@@ -13,6 +13,7 @@ const latestFeedPost = allFeedPosts.reduce((a, b) => a.data.pubDate > b.data.pub
        <a href={`${latestFeedPost.data.url}`} target="_blank"><img class="h-32 object-cover mb-4 shadow" src={`${latestFeedPost.data.thumbnail}`} alt="media"></a>
        <div class="w-full">
           <div class="items-center justify-between">
+            <p class="uppercase text-gray-400 text-xs mb-1">the latest</p>
             <h2 class="text-lg font-bold text-gray-900 -mt-1 leading-6"><a href={`${latestFeedPost.data.url}`} target="_blank" class="text-gray-900 hover:text-sky-900">{latestFeedPost.data.title}</a></h2>      
           </div>
           <p class="text-gray-700 mb-3">{latestFeedPost.data.subtitle}</p>
