@@ -4,7 +4,7 @@ const { feedEntry } = Astro.props;
 
 ---
 
-<script>
+<!-- <script>
 const buttons = document.querySelectorAll('button.pop-it');
 
 buttons.forEach((button) => {
@@ -13,11 +13,11 @@ buttons.forEach((button) => {
     });
 });
 
-</script>
+</script> -->
 
 <div class="flex col-auto w-full break-inside-avoid-column">
     <div class="flex-1 bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
-        <button class="pop-it absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></button>
+        <button class="absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></button>
         <a href={`/feedarchive-${feedEntry.data.mediaType}/`} class="inline-block ml-4 mb-2 absolute bottom-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
         <div class="items-start p-5 w-full h-full">
             <a href={`${feedEntry.data.url}`} target="_blank"><img class="object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
@@ -28,7 +28,7 @@ buttons.forEach((button) => {
                 <p class="text-sm text-gray-400 mb-3">{feedEntry.data.subtitle}</p>
             </div>
         </div>
-        <div id="popover" class="hidden transition duration-150 ease-in-out md:-mt-16 mt-8 absolute top-0 left-0 sm:ml-10 md:ml-10 w-10/12 md:w-2/3">
+        <!-- <div id="popover" class="hidden transition duration-150 ease-in-out md:-mt-16 mt-8 absolute top-0 left-0 sm:ml-10 md:ml-10 w-10/12 md:w-2/3">
             <div class="w-full bg-white rounded shadow-2xl">
                 <div class="relative bg-white rounded-t py-4 px-4 xl:px-8">
                     <svg class="hidden md:block absolute -ml-5 -mb-10 left-0 bottom-0" width="30px" height="30px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -52,7 +52,7 @@ buttons.forEach((button) => {
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>         -->
     </div>
 </div>
 

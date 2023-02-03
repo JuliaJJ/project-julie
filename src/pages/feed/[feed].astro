@@ -1,10 +1,11 @@
 ---
 import { CollectionEntry, getCollection } from 'astro:content';
-import FeedPost from '../layouts/FeedPost.astro';
+import FeedPost from '../../layouts/FeedPost.astro';
+
 export async function getStaticPaths() {
 	const posts = await getCollection('feed');
 	return posts.map((post) => ({
-		params: { slug: post.slug },
+		params: { feed: post.slug },
 		props: post,
 	}));
 }
