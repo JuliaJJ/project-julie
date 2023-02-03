@@ -145,3 +145,11 @@ blockquote {
 	height: 100vh;
 	z-index: -1;
 }
+
+.feed-post-text h1 {
+	display: none;
+}
+
+.feed-post-text p {
+	margin-bottom: 1.25rem;
+}
