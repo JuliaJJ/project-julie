@@ -1,0 +1,37 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Icon } from 'astro-icon';
+
+type Props = CollectionEntry<'feed'>['data'];
+
+const { title, subtitle, pubDate, thumbnail, mediaType, url } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<head>
+            <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        </head>
+	</head>
+
+	<body>
+		<Header />
+		<main>
+			<article>
+				{thumbnail && <img src={thumbnail} alt={title} />}
+				<h1 class="title">{title}</h1>
+                <h2 class="subtitle">{subtitle}</h2>
+				{pubDate && <time>{pubDate}</time>}
+                <p><a href={url}>Link</a></p>
+                <a href={`/feedarchive-${mediaType}/`} class="inline-block ml-4 mb-2 absolute bottom-5 right-5 w-6"><Icon name={`${mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
+				<hr />
+				<slot />
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>
