@@ -2,9 +2,21 @@
 import { Icon } from 'astro-icon';
 const { feedEntry } = Astro.props;
 ---
+
+<script>
+const buttons = document.querySelectorAll('button.pop-it');
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        document.getElementById("popover").classList.toggle('hidden');
+    });
+});
+
+</script>
+
 <div class="flex col-auto w-full break-inside-avoid-column">
     <div class="flex-1 bg-slate-100 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl relative hover:bg-white">
-        <a href="#" class="absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></a>
+        <button class="pop-it absolute w-5 -left-2 -top-2"><Icon name="circle-info-solid" class="fill-gray-400 hover:fill-sky-900" /></button>
         <a href={`/feedarchive-${feedEntry.data.mediaType}/`} class="inline-block ml-4 mb-2 absolute bottom-5 right-5 w-6"><Icon name={`${feedEntry.data.mediaType}`} class="fill-gray-400 hover:fill-sky-900" /></a>
         <div class="items-start p-5 w-full h-full">
             <a href={`${feedEntry.data.url}`} target="_blank"><img class="object-cover mb-4" src={`${feedEntry.data.thumbnail}`} alt="media"></a>
@@ -15,5 +27,32 @@ const { feedEntry } = Astro.props;
                 <p class="text-sm text-gray-400 mb-3">{feedEntry.data.subtitle}</p>
             </div>
         </div>
+        <div id="popover" class="hidden transition duration-150 ease-in-out md:-mt-16 mt-8 absolute top-0 left-0 sm:ml-10 md:ml-10 w-10/12 md:w-2/3">
+            <div class="w-full bg-white rounded shadow-2xl">
+                <div class="relative bg-white rounded-t py-4 px-4 xl:px-8">
+                    <svg class="hidden md:block absolute -ml-5 -mb-10 left-0 bottom-0" width="30px" height="30px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Tooltips-" transform="translate(-874.000000, -1029.000000)" fill="#FFFFFF">
+                                <g id="Group-3-Copy-16" transform="translate(850.000000, 975.000000)">
+                                    <g id="Group-2" transform="translate(24.000000, 0.000000)">
+                                        <polygon id="Triangle" transform="translate(4.500000, 62.000000) rotate(-90.000000) translate(-4.500000, -62.000000) " points="4.5 57.5 12.5 66.5 -3.5 66.5"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <p class="text-xs text-gray-400 uppercase">Thoughts</p>
+                </div>
+                <div class="w-full h-full px-4 xl:px-8 pt-3 pb-5">
+                    <div class="flex justify-between items-center">
+                        <div class="relative font-normal text-xs sm:text-sm flex items-center text-gray-600">
+                            {feedEntry.data.title}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </div>
 </div>
+
+
