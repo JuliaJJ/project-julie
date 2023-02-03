@@ -1,6 +1,6 @@
 ---
 title: "Glass Onion"
-subtitle: "2022"
+subtitle: "Netflix"
 pubDate: "Dec 31 2022"
 thumbnail: "/cover-glass-onion.jpg"
 mediaType: "film"
