@@ -1,7 +1,6 @@
 ---
 import { CollectionEntry, getCollection } from 'astro:content';
 import FeedPost from '../layouts/FeedPost.astro';
-
 export async function getStaticPaths() {
 	const posts = await getCollection('feed');
 	return posts.map((post) => ({
@@ -14,8 +13,8 @@ type Props = CollectionEntry<'feed'>;
 const post = Astro.props;
 const { Content } = await post.render();
 ---
-<!-- 
+
 <FeedPost {...post.data}>
 	<h1>{post.data.title}</h1>
 	<Content />
-</FeedPost> -->
+</FeedPost>
