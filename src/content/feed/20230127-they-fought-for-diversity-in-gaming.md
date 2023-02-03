@@ -5,7 +5,7 @@ pubDate: "Jan 27 2023"
 thumbnail: "/cover-they-fought-for-diversity-in-gaming.jpg"
 mediaType: "article"
 url: "https://au.rollingstone.com/music/music-news/gaming-diversity-winning-abuse-44665/amp/"
-layout: '../../layouts/FeedPost.astro'
+# layout: '../../layouts/FeedPost.astro'
 ---
 
 Waymond is the best. Will write more later; this is just a placeholder.

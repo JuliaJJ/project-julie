@@ -5,7 +5,7 @@ pubDate: "Jan 28 2023"
 thumbnail: "/cover-the-1975-about-you-live.jpg"
 mediaType: "video"
 url: "https://youtu.be/28Lj4qt3lCc"
-layout: '../../layouts/FeedPost.astro'
+# layout: '../../layouts/FeedPost.astro'
 ---
 
 Do you think that I've forgotten about you?

@@ -29,7 +29,7 @@ export const collections = {
 			thumbnail: z.string(),
 			mediaType: z.string(),
 			url: z.string(),
-			layout: z.string(),
+			// layout: z.string(),
 		}),
 	}),
 };
