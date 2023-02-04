@@ -5,17 +5,6 @@ import SmallFeedCard from "./SmallFeedCard.astro";
 import { Icon } from 'astro-icon';
 
 ---
-
-<!--
-    TO DO:
-    - small card height is determined by height of largest card; pubDate should be fixed to bottom right corner
-    - cards only display frontmatter; additional content is in tooltip/popover display by clicking/tapping on plus icon on each card
-    - need archive page to display all feed posts, feed posts by category (accessed from icon at upper right of each card) - use in page filters?
-    - on mobile, post cards will stack with most recent at top and descending in reverse chronological order. 
-    - post limit for display on landing page is 3+1; "older" link leads to archive page
- -->
-
-
 <div class="mb-4 lg:-mb-2">
     <h3 id="feed" class="text-2xl"><span class="text-2x1">the </span><span class="font-display text-5xl text-sky-900">feed</span></h3>
     <p class="text-gray-400 uppercase text-xs tracking-wider">all that's been recently consumed</p>
