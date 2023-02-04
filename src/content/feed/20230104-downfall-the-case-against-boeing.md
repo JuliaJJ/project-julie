@@ -8,4 +8,3 @@ url: "https://www.netflix.com/title/81272421"
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-Planes go boom. Will write more later; this is just a placeholder.
