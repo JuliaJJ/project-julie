@@ -1,0 +1,32 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import ElsewhereIcons from '../components/ElsewhereIcons.astro';
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<div class="pattern-container"></div>
+			<div>
+				<Header />
+			</div>
+			<main>
+				<div class="container mx-auto my-16">
+                    <h3 class="font-display text-5xl text-sky-900">Thanks.</h3>
+                    <p class="mb-12">Sorry I was unavailable to take your call, but I'll get back to you as soon as time allows.</p>
+                    <div class="flex">
+                        <h4 class="text-sm uppercase text-gray-400 tracking-wider">Find me elsewhere</h4>
+                        <ElsewhereIcons />
+                    </div>
+				</div>
+			</main>
+			<Footer />
+	</body>
+</html>
