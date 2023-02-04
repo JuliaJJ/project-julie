@@ -8,4 +8,3 @@ url: "https://www.disneyplus.com/series/loki/6pARMvILBGzF"
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-TVA. Will write more later; this is just a placeholder.
