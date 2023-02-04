@@ -8,4 +8,3 @@ url: "https://tv.apple.com/us/show/mythic-quest/umc.cmc.1nfdfd5zlk05fo1bwwetzldy
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-Gaming gamers who game. Will write more later; this is just a placeholder.

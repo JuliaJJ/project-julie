@@ -8,4 +8,3 @@ url: "https://bookshop.org/p/books/the-candy-house-jennifer-egan/18569940?ean=97
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-The future is weird. And the past is accessible forever. Will write more later; this is just a placeholder.

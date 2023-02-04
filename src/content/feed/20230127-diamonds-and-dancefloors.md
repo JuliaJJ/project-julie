@@ -8,4 +8,3 @@ url: "https://open.spotify.com/album/5NgQit6EhPnx84bxgVVDRQ?si=osllLpoeQDqmC0wZ2
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-Bops and bangers. Will write more later; this is just a placeholder.

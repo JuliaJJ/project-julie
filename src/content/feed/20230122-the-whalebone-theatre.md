@@ -8,4 +8,3 @@ url: "https://bookshop.org/p/books/the-whalebone-theatre-joanna-quinn/17772541?e
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-Europe. WWII. Beached whale. Will write more later; this is just a placeholder.
