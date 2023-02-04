@@ -54,8 +54,9 @@ setInterval(() => {
    {/if}
 {:else}
 <div class="flex bg-sky-50 shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl mb-4 relative hover:bg-white">
-   <div class="flex w-full items-start p-5">
-      <p>Spotify is currently quiet.</p>
+   <div class="flex w-full flex-col items-start p-5">
+      <p class="mb-5">I'm not jamming to any bops or bangers at present. But here's a list of my favorites to keep you entertained until I'm back.</p>
+      <iframe title="spotify embed" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5TvFJpKrQaxhxd452o0Jcd?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
    </div>
 </div>
 {/if}
