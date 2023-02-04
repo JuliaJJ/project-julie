@@ -13,8 +13,6 @@ const items = {
 };
 ---
 
-<div class="icons text-right">
-    {Object.entries(items).map(([icon, location]) => 
-        <a href={location} class="inline-block ml-4 mb-2 w-7"><Icon name={icon} class="hover:fill-sky-900" /></a>
-    )}
-</div>
+{Object.entries(items).map(([icon, location]) => 
+    <a href={location} class="inline-block ml-4 mb-2 w-7"><Icon name={icon} class="hover:fill-sky-900" /></a>
+)}

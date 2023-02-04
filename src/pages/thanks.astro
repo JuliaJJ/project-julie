@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import ElsewhereIcons from '../components/ElsewhereIcons.astro';
+import { Icon } from 'astro-icon';
 
 ---
 
@@ -20,11 +21,8 @@ import ElsewhereIcons from '../components/ElsewhereIcons.astro';
 			<main>
 				<div class="container mx-auto my-16">
                     <h3 class="font-display text-5xl text-sky-900">Thanks.</h3>
-                    <p class="mb-12">Sorry I was unavailable to take your call, but I'll get back to you as soon as time allows.</p>
-                    <div class="flex">
-                        <h4 class="text-sm uppercase text-gray-400 tracking-wider">Find me elsewhere</h4>
-                        <ElsewhereIcons />
-                    </div>
+                    <p class="mb-4">Sorry I was unavailable to take your call, but I'll get back to you as soon as time allows.</p>
+                    <a class="inline-block text-sm mb-12 text-gray-400 hover:text-sky-900 fill-gray-400 hover:fill-sky-900"><Icon name="circle-arrow-left-solid" class="w-4 inline-block" /> head back to the homepage</a>
 				</div>
 			</main>
 			<Footer />

@@ -1,9 +1,17 @@
 ---
+import ElsewhereIcons from "./ElsewhereIcons.astro";
+
 const today = new Date();
 ---
 
 <footer class="text-gray-400 uppercase text-xs tracking-wider">
 	&copy; {today.getFullYear()} Julie Johnston. All rights reserved. Don't steal.
+	<div class="flex flex-col mt-8">
+		<h4 class="text-xs uppercase text-gray-400 tracking-wider mb-3">Find me elsewhere</h4>
+		<div class="-ml-4">
+			<ElsewhereIcons />
+		</div>
+	</div>
 </footer>
 <style>
 	footer {
