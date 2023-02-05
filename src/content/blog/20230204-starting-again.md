@@ -2,7 +2,7 @@
 title: "Starting Again"
 description: "Trying out blogging one more time"
 pubDate: "Feb 4 2023"
-heroImage: "/placeholder-hero.jpg"
+heroImage: "/20230204-starting-again.jpg"
 ---
 
 I started my first blog in college. I hung out my shingle in the College Park "neighborhood" on Geocities and posted every Internet cliche out there - animated marquees, gifs of construction workers and "under construction" signs, gaudy repeating background tiles that were never seamless... It was a fun experiment, and the nerdy boys I liked hung out in computer labs, ergo I hung out in computer labs. 
