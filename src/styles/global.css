@@ -65,6 +65,7 @@ body {
 	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: #444;
+	box-sizing: border-box;
 }
 h1,
 h2,
