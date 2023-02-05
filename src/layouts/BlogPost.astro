@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, heroImage } = Astro.props;
 ---
 
 <html lang="en">
@@ -18,22 +18,28 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="flex flex-row">
-					<div class="w-1/2">
-						{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
+				<div class="container m-auto my-16">
+					<div class="mb-10 flex flex-row">
+						<div class="md:w-2/3">
+							<h3 id="feed" class="text-2xl"><a href="/blog/">i have some<br><span class="font-display text-5xl text-sky-900">thoughts</span></a></h3>
+							<p class="text-gray-400 uppercase text-xs tracking-wider">and I love to share</p>
+						</div>
 					</div>
-					<div class="w-1/2">
-						<h1 class="title">{title}</h1>
-						{pubDate && <time>{pubDate}</time>}
-						{
-							updatedDate && (
-								<div>
-									Last updated on <time>{updatedDate}</time>
-								</div>
-							)
-						}
-				<hr />
-				<slot />
+				</div>
+				<div class="container mx-auto my-16 grid grid-cols-5">
+					<div class="col-start-2 col-span-3">
+						<div class="w-full relative">
+							{heroImage && <img src={heroImage} alt={title} />}
+						</div>
+						<div class="w-full relative">
+							<h1 class="text-3xl leading-7 hover:text-sky-900">{title}</h1>
+							<h2 class="text-lg leading-8">{description}</h2>
+							<p class="text-gray-400">{pubDate.toLocaleDateString('en-us', { year:'numeric', month:'long', day:'numeric'})}</p>
+							<hr class="my-4" />
+							<div class="feed-post-text mb-12">
+								<slot />
+							</div>
+						</div>
 					</div>
 				</div>
 			</article>
@@ -41,3 +47,5 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Footer />
 	</body>
 </html>
+
+
