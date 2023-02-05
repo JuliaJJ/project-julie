@@ -3,9 +3,10 @@ title: "Starting Again"
 description: "Trying out blogging one more time, and other beginnings"
 pubDate: "Feb 4 2023"
 heroImage: "/20230204-starting-again.jpg"
+excerpt: "I started my first blog in college. I hung out my shingle in the College Park neighborhood on Geocities and posted every Internet cliche out there - animated marquees, gifs of construction workers and under construction signs, gaudy repeating background tiles that were never seamless... It was a fun experiment, and the nerdy boys I liked hung out in computer labs, ergo I hung out in computer labs. "
 ---
 
-I started my first blog in college. I hung out my shingle in the College Park "neighborhood" on Geocities and posted every Internet cliche out there - animated marquees, gifs of construction workers and "under construction" signs, gaudy repeating background tiles that were never seamless... It was a fun experiment, and the nerdy boys I liked hung out in computer labs, ergo I hung out in computer labs. 
+I started my first blog in college. I hung out my shingle in the College Park neighborhood on Geocities and posted every Internet cliche out there - animated marquees, gifs of construction workers and under construction signs, gaudy repeating background tiles that were never seamless... It was a fun experiment, and the nerdy boys I liked hung out in computer labs, ergo I hung out in computer labs. 
 
 I didn't really embrace the artform, if you can call it that, until I finished school and started working for a small web development agency as their one and only designer. I trolled the Internet for interesting links and memes, posted photos I took around town, and generally described the mundane bits of life in more detail than was strictly necessary. A habit that's not all that different from how people communicate on the Web today. 
 
