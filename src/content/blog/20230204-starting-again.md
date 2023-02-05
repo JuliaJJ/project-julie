@@ -1,6 +1,6 @@
 ---
 title: "Starting Again"
-description: "Trying out blogging one more time"
+description: "Trying out blogging one more time, and other beginnings"
 pubDate: "Feb 4 2023"
 heroImage: "/20230204-starting-again.jpg"
 ---

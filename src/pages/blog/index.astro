@@ -6,7 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
@@ -36,22 +36,34 @@ const posts = (await getCollection('blog')).sort(
 		<Header />
 		<main>
 			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<time datetime={post.data.pubDate.toISOString()}>
-									{post.data.pubDate.toLocaleDateString('en-us', {
-										year: 'numeric',
-										month: 'short',
-										day: 'numeric',
-									})}
-								</time>
-								<a href={`/blog/${post.slug}/`}>{post.data.title}</a>
-							</li>
-						))
-					}
-				</ul>
+				<div class="container m-auto my-16">
+					<div class="mb-10 flex flex-row">
+						<div class="md:w-2/3">
+							<h3 id="feed" class="text-2xl"><a href="/blog/" class="text-[#222222]">i have some<br><span class="font-display text-5xl text-sky-900">thoughts</span></a></h3>
+							<p class="text-gray-400 uppercase text-xs tracking-wider">and I love to share</p>
+						</div>
+					</div>
+				</div>
+				<div class="container mx-auto my-16 grid grid-cols-5">
+					<div class="col-start-2 col-span-3">
+						<ul>
+							{
+								posts.map((post) => (
+									<li>
+										<time datetime={post.data.pubDate.toISOString()}>
+											{post.data.pubDate.toLocaleDateString('en-us', {
+												year: 'numeric',
+												month: 'short',
+												day: 'numeric',
+											})}
+										</time>
+										<a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+									</li>
+								))
+							}
+						</ul>
+					</div>
+				</div>
 			</section>
 		</main>
 		<Footer />
