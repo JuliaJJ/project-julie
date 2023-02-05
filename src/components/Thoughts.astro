@@ -8,8 +8,7 @@ allBlogPosts.sort((a, b) => {
 });
 
 let lastBlogPost = allBlogPosts.slice(-1);
-console.log(lastBlogPost);
-const { blogEntry } = Astro.props;
+
 ---
 
 {lastBlogPost.map(blogEntry => (
