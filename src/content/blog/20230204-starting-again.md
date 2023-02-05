@@ -5,7 +5,7 @@ pubDate: "Feb 4 2023"
 heroImage: "/20230204-starting-again.jpg"
 excerpt: "The last year has been pretty rough. Full of changes, good and bad, with downs that turned out to be ups and anticipated ups that crashed spectacularly to Earth. I'm a person who likes to talk things through, exhaustively and even annoyingly so, but lately I've found the only person to talk to is myself. But... there's always the power of the metaphorical pen."
 ---
-The last year has been pretty rough. Full of changes, good and bad, with downs that turned out to be ups and anticipated ups that crashed spectacularly to Earth. I'm a person who likes to talk things through, exhaustively and even annoyingly so, but lately I've found the only person to talk to is myself. But... there's always the power of the metaphorical pen.
+The last year has been pretty rough. Full of changes, good and bad, with downs that turned out to be ups and anticipated ups that crashed spectacularly to Earth. I'm a person who likes to talk things through, exhaustively and even annoyingly so, and lately I've found there's rarely someone to talk to besides myself. But... there's always the power of the metaphorical pen.
 
 I started my first blog in college. I hung out my shingle in the College Park neighborhood on Geocities and posted every Internet cliche out there - animated marquees, gifs of construction workers and under construction signs, gaudy repeating background tiles that were never seamless... It was a fun experiment, and the nerdy boys I gravitated toward hung out in computer labs, ergo I hung out in computer labs. 
 
