@@ -13,10 +13,14 @@ lanyard.subscribe(data => {
 });
 
 setInterval(() => {
-   if (spotify !== null) {
+   if (spotify != null) {
       let songLength = spotify.timestamps.end - spotify.timestamps.start;
       let calcSeconds = Date.now() - spotify.timestamps.start;
       elapsed = calcSeconds / songLength;
+      
+      // calcSeconds is affected by Date.now().
+      // The Spotify API sometimes fails to update its state back to null - so we're adding a failsafe.
+      if (Math.ceil(elapsed)) elapsed = 1;
    } 
 }, 1000);
 
