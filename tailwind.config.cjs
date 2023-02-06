@@ -9,5 +9,19 @@ module.exports = {
 			}
 		},
 	},
-	plugins: [],
+	plugins: [
+		function ({ addComponents }) {
+			addComponents({
+			  '.container': {
+				maxWidth: '100%',
+				'@screen xl': {
+				  maxWidth: '1024px',
+				},
+				'@screen xl': {
+					maxWidth: '1024px',
+				  },
+			  }
+			})
+		  }
+	],
 }
