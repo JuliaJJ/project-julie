@@ -1,0 +1,50 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FilterNav from '../components/FilterNav.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { Icon } from 'astro-icon';
+import { getCollection } from "astro:content";
+import FeedArchiveCard from '../components/FeedArchiveCard.astro';
+
+const allFeedPosts = await getCollection('feed');
+allFeedPosts.sort((a, b) => {
+   return b.data.pubDate - a.data.pubDate;
+});
+
+const articleFeedPosts = allFeedPosts.filter(post => {
+    return post.data.mediaType == "store"
+});
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<div class="pattern-container"></div>
+			<div>
+				<Header />
+			</div>
+			<main>
+                <div class="container m-auto my-16">
+                    <div class="mb-8 flex flex-row">
+                        <div class="md:w-2/3">
+                            <h3 id="feed" class="text-2xl"><a href="/feedarchive/" class="text-[#222222]">the <span class="font-display text-5xl text-sky-900">feed</span></a></h3>
+                            <p class="text-gray-400 uppercase text-xs tracking-wider">all that's been recently consumed</p>
+                        </div>
+                        <FilterNav />
+                    </div>
+                    <div class="columns-3 space-y-6">   
+                        {articleFeedPosts.map(feedEntry => (
+                            <FeedArchiveCard feedEntry={feedEntry} />
+                        ))}
+                    </div>
+                </div>
+            </main>
+        <Footer />
+	</body>
+</html>
