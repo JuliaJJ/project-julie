@@ -5,8 +5,8 @@ import { useLanyard } from 'svelte-lanyard';
 const lanyard = useLanyard('849820804341956619');
 
 let elapsed = 1;
-
 let spotify;
+
 lanyard.subscribe(data => {
    if (!data) return;
    spotify = data.spotify;
@@ -20,8 +20,10 @@ setInterval(() => {
       
       // calcSeconds is affected by Date.now().
       // The Spotify API sometimes fails to update its state back to null - so we're adding a failsafe.
-      if (Math.ceil(elapsed)) elapsed = 1;
+      if (elapsed >= 1) elapsed = 1;
    } 
+   // should prob reset this, isn't updated out of L7/L23.
+   else elapsed = 0;
 }, 1000);
 
 </script>
