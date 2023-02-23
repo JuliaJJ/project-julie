@@ -4,7 +4,7 @@ import Blog from "../pages/blog/[blog].astro";
 
 let allBlogPosts = await getCollection('blog');
 allBlogPosts.sort((a, b) => {
-   return b.data.pubDate - a.data.pubDate;
+   return a.data.pubDate - b.data.pubDate;
 });
 
 let lastBlogPost = allBlogPosts.slice(-1);
