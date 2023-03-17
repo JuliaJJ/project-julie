@@ -1,7 +1,7 @@
 ---
 title: "BEEF | Official Trailer"
 subtitle: "Netflix"
-pubDate: "Feb 7 2023"
+pubDate: "Mar 16 2023"
 thumbnail: "/cover-beef.jpg"
 mediaType: "video"
 url: "https://youtu.be/AFPIMHBzGDs"
