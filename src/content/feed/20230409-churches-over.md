@@ -1,6 +1,6 @@
 ---
 title: "CHVRCHES: Over"
-subtitle: "The Tonight Shw Starring Jimmy Fallon"
+subtitle: "The Tonight Show Starring Jimmy Fallon"
 pubDate: "Apr 09 2023"
 thumbnail: "/cover-churches.jpeg"
 mediaType: "video"
