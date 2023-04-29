@@ -3,7 +3,7 @@ title: "Mother"
 description: "The presence of an absence"
 pubDate: "Apr 29 2023"
 heroImage: "/20230429-the-missing.jpg"
-excerpt: "Lately, I've been missing my mom a lot more than usual. Life is challenging, always but especially right now, and sometimes you just need a *mom*."
+excerpt: "Lately, I've been missing my mom a lot more than usual, and not just because her birthday passed a little over a week ago. Life is challenging, always but especially right now, and sometimes you just need a *mom*."
 ---
 
 Lately, I've been missing my mom a lot more than usual, and not just because her birthday passed a little over a week ago. Life is challenging, always but especially right now, and sometimes you just need a *mom*. The "missing" is always there, this string tied around a corner of my heart that gets tugged and squeezes when I hear a song she loved, or cook a meal she taught me how to make, or run my finger along the spine of a book I'm sure she'd enjoy. We went through a period, too long a period, where life was just busy and crowded and *life* and we didn't talk as much. And later in life, she couldn't travel and it was harder to get to her. One of the regrets of my life is that she never got to meet my son in person in the brief period their lives overlapped. I can't call her anymore to tell her about the absurd thing I saw while driving down the street, or cry to her a little when I have one of my particularly vivid bad dreams, or just get some no-nonsense advice from one of the smartest people I will ever meet. Tug. Squeeze.
