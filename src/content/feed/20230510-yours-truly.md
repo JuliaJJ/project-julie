@@ -8,7 +8,7 @@ url: "https://bookshop.org/p/books/yours-truly-abby-jimenez/18732568"
 # layout: '../../layouts/FeedPost.astro'
 ---
 
-My piles of books to read generally fall into two categories - science fiction and cheesy romance. There are some strays sprinkled in there, like "American Prometheus," which I'd like to finish before *Oppenheimer* comes out in July (and if we were ranking things, the "nonfiction" category ). But... I've got my favorites. I've got comfort food. 
+My piles of books to read generally fall into two categories - science fiction and cheesy romance. There are some strays sprinkled in there, like "American Prometheus," which I'd like to finish before *Oppenheimer* comes out in July (and if we were ranking things, the "nonfiction" category is my third stack). But... I've got my favorites. I've got comfort food. 
 
 Like most romance novels, you know from the opening pages of "Yours Truly" that the two doctors at the center of the story are going to end up together; what sets my favorite romances apart is the journey. Brianna is days away from the finalization of the divorce from her cheating ex. She's also in line for a promotion at her ER job, and all the while she's juggling the care of her younger brother, who is desperately in need of a kidney transplant. Enter Jacob, another ER doc who has transferred away from the hospital where his ex-girlfriend - also his brother's new fiance - works. Jacob's serious social anxiety causes him to fumble the first few interactions he has with Brianna, and between that and miscommunications about the job they're now both up for, Brianna completely detests him. Naturally they're perfect for each other and are going to fall in love.
 
