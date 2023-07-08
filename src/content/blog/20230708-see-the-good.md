@@ -25,7 +25,7 @@ houseguests
 gossiping with older women  
 places that trigger memories  
 eyelash extensions  
-the warm spot on the counter above the dishwasher  
+the warm spot on the counter above the dishwasher while it's running  
 concert tickets  
 hair ties that haven't been sretched out yet  
 vacuumed floors  
@@ -52,6 +52,7 @@ making a tank of gas last long enough that I can't remember when I last filled i
 obscure emojis  
 used cookbooks with handwritten notes in the margins  
 escape rooms  
+awkward dancing  
 fresh movie theater popcorn  
 cracking jokes with my gynecologist while she replaces my IUD  
 painted toenails  
@@ -73,7 +74,7 @@ fancy lemonade
 eye contact  
 surprise compliments  
 the worn-through paint on my WASD keys  
-tortilla chips that are thin enough to be extra crunchy but thick enough to not break when you dip them in guac  
+thin tortilla chips that don't break when you dip them in guac  
 warm white lightbulbs  
 rumbly bass you can feel in my chest  
 Pride  
@@ -87,6 +88,7 @@ wearing my hair curly
 H Mart  
 sound baths  
 Zoom calls with my favorite 11-year-old  
+perfectly cooked rice  
 playing music in the car excessively loud so I can't hear my own scream-singing  
 tunnels  
 murals  
