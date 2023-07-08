@@ -27,7 +27,7 @@ places that trigger memories
 eyelash extensions  
 the warm spot on the counter above the dishwasher while it's running  
 concert tickets  
-hair ties that haven't been sretched out yet  
+hair ties that haven't been stretched out yet  
 vacuumed floors  
 the view of downtown from my bed  
 the smell of my shampoo  
