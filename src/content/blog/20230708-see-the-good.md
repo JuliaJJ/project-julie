@@ -70,6 +70,7 @@ the heat outside after leaving a grocery store that's slightly too cold
 sporting events with friends  
 birthday texts  
 doubling the tip  
+obi belts
 fancy lemonade  
 eye contact  
 surprise compliments  
