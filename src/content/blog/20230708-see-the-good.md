@@ -12,95 +12,95 @@ I always carry notepads with me. Always. Big ones in my backpack. Little ones in
 
 So, in progress, incomplete, in no particular order, evolving - here is The Good List so far:
 
-cocktails with ingredients I can't pronounce garnished with edible flowers
-yoga that's basically just almost taking a nap
-bejeweled shoes
-seamless underwear
-noisy keyboards
-endless card games
-merino wool yarn
-cookies that are soft and gooey but don't fall apart as soon as you handle them
-slightly undercooked scrambled eggs
-houseguests
-gossiping with older women
-places that trigger memories
-eyelash extensions
-the warm spot on the counter above the dishwasher
-concert tickets
-hair ties that haven't been stretched out yet
-vacuumed floors
-the view of downtown from my bed
-the smell of my shampoo
-the arrival of packages for preorders I forgot about
-lemon Oreos
-recipes that let me use boxed ingredients
-jacket potatoes
-negotiating the price of Brie at the cheese shop
-the anticipation before the beat drops
-wine carafes
-nicknames
-comfortable headphones
-being a regular at the neighborhood coffee shop
-limited-edition vinyl records
-a carry-on that matches my suitcase
-tasting menus
-getting lost in a pile of pillows
-cat memes
-noticing how my plants perk up when I remember to water them
-new glasses
-making a tank of gas last long enough that I can't remember when I last filled it
-obscure emojis
-used cookbooks with handwritten notes in the margins
-escape rooms
-fresh movie theater popcorn
-cracking jokes with my gynecologist while she replaces my IUD
-painted toenails
-park swings
-freshly washed bedsheets
-the click of the work laptop closing on Friday afternoon
-finding my way without the GPS
-microdosing
-matching sets of underwear
-more than one kind of whiskey on the shelf
-books in a series
-therapy
-faint tan lines from my sandals
-the heat outside after leaving a grocery store that's slightly too cold
-sporting events with friends
-birthday texts
-doubling the tip
-fancy lemonade
-eye contact
-surprise compliments
-the worn-through paint on my WASD keys
-tortilla chips that are thin enough to be extra crunchy but thick enough to not break when you dip them in guac
-warm white lightbulbs
-rumbly bass you can feel in my chest
-Pride
-shirts that go with jeans or nice pants
-pulling a weed out and getting the root on the first try
-stickers on the light switches
-fresh corn tortillas
-pin locks
-sushi rolls without cucumber
-wearing my hair curly
-H Mart
-sound baths
-Zoom calls with my favorite 11-year-old
-playing music in the car excessively loud so I can't hear my own scream-singing
-tunnels
-murals
-strawberry milk tea with lychee jelly
-walking to the grocery store
-biking to the grocery store
-strangers who follow me to give back the phone I left on the park bench
-bike lanes
-turkey pastrami
-worn leather couches
-closing my rings
-having the same thought at the same time as someone else and saying it in unison
-chili-cheese queso
-coming down a hill and seeing water in front of me
-leave-in conditioner
-comfy pants
-leftover bbq
+cocktails with ingredients I can't pronounce garnished with edible flowers  
+yoga that's basically just almost taking a nap  
+bejeweled shoes  
+seamless underwear  
+noisy keyboards  
+endless card games  
+merino wool yarn  
+cookies that are soft and gooey but don't fall apart as soon as you handle them  
+slightly undercooked scrambled eggs  
+houseguests  
+gossiping with older women  
+places that trigger memories  
+eyelash extensions  
+the warm spot on the counter above the dishwasher  
+concert tickets  
+hair ties that haven't been sretched out yet  
+vacuumed floors  
+the view of downtown from my bed  
+the smell of my shampoo  
+the arrival of packages for preorders I forgot about  
+lemon Oreos  
+recipes that let me use boxed ingredients  
+jacket potatoes  
+negotiating the price of Brie at the cheese shop  
+the anticipation before the beat drops  
+wine carafes  
+nicknames  
+comfortable headphones  
+being a regular at the neighborhood coffee shop  
+limited-edition vinyl records  
+a carry-on that matches my suitcase  
+tasting menus  
+getting lost in a pile of pillows  
+cat memes  
+noticing how my plants perk up when I remember to water them  
+new glasses  
+making a tank of gas last long enough that I can't remember when I last filled it  
+obscure emojis  
+used cookbooks with handwritten notes in the margins  
+escape rooms  
+fresh movie theater popcorn  
+cracking jokes with my gynecologist while she replaces my IUD  
+painted toenails  
+park swings  
+freshly washed bedsheets  
+the click of the work laptop closing on Friday afternoon  
+finding my way without the GPS  
+microdosing  
+matching sets of underwear  
+more than one kind of whiskey on the shelf  
+books in a series  
+therapy  
+faint tan lines from my sandals  
+the heat outside after leaving a grocery store that's slightly too cold  
+sporting events with friends  
+birthday texts  
+doubling the tip  
+fancy lemonade  
+eye contact  
+surprise compliments  
+the worn-through paint on my WASD keys  
+tortilla chips that are thin enough to be extra crunchy but thick enough to not break when you dip them in guac  
+warm white lightbulbs  
+rumbly bass you can feel in my chest  
+Pride  
+shirts that go with jeans or nice pants  
+pulling a weed out and getting the root on the first try  
+stickers on the light switches  
+fresh corn tortillas  
+pin locks  
+sushi rolls without cucumber  
+wearing my hair curly  
+H Mart  
+sound baths  
+Zoom calls with my favorite 11-year-old  
+playing music in the car excessively loud so I can't hear my own scream-singing  
+tunnels  
+murals  
+strawberry milk tea with lychee jelly  
+walking to the grocery store  
+biking to the grocery store  
+strangers who follow me to give back the phone I left on the park bench  
+bike lanes  
+turkey pastrami  
+worn leather couches  
+closing my rings  
+having the same thought at the same time as someone else and saying it in unison  
+chili-cheese queso  
+coming down a hill and seeing water in front of me  
+leave-in conditioner  
+comfy pants  
+leftover bbq  
