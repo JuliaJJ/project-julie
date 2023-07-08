@@ -76,7 +76,7 @@ surprise compliments
 the worn-through paint on my WASD keys  
 thin tortilla chips that don't break when you dip them in guac  
 warm white lightbulbs  
-rumbly bass you can feel in my chest  
+rumbly bass I can feel in my chest  
 Pride  
 shirts that go with jeans or nice pants  
 pulling a weed out and getting the root on the first try  
