@@ -1,0 +1,24 @@
+---
+title: "Lessons in Chemistry"
+subtitle: "Bonnie Garmus"
+pubDate: "Oct 15 2023"
+thumbnail: "/cover-lessons-in-chemistry.jpg"
+mediaType: "book"
+url: "https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865"
+# layout: '../../layouts/FeedPost.astro'
+---
+I bought this book in an airport over a year ago. I probably had at least one book in my luggage at the time, but I decided I needed one more. And while it only tangentially reflects the themes of the book and could definitely deter people from buying it unless they were looking for (what they thought was) a syrupy romantic trope of a book with a science backdrop. I, however, am a nerdy cheeseball. The cover worked in this book's favor.
+
+This is not the romance you're looking for.
+
+> "On the other hand, wasn't that the very definitely of life? Constant adaptations brought about by a series of never-ending mistakes?"
+
+In some ways, Elizabeth Zott is a bit too idealistic a protagonist. Because every woman reading the book has lived in the world she describes, knows the challenges she faced at work and home (challenges women today still face), has heard to remarks she's listened to from colleagues and peers - and can't imagine the series of coincidences she encounters and success she eventually finds actually coming to pass. But... that doesn't mean we're not due for a tiny bit of escapism. Because Zott is a heroine in every sense of word. She's not a fantastical queen charging into battle with a sword and a cry, but she might as well be with her #2 pencil and chemical compounds.
+
+We meet Elizabeth in the middle of her story, tearing into the parent of another child at her daughter's school for stealing her daughter's lunch, and the the story rewinds jumpily backward, unspooling in a non-linear fashion to tell us about the tragedy of Elizabeth's childhood, the trauma of pursuing her education, and crucially, the inevitability of her falling in love with Calvin Evans, a much-lauded scientist at the research institute where she's a lab tech. Their brief antagonism begins with stolen beakers, but turns to a lifelong bond when he vomits all over her outside a theater. 
+
+A serious of unfortunate events brings Calvin and Elizabeth to the point at which the finally meet, and one more will irrevocably change the trajectory of their lives. Is the gift of a leash to blame? Or the death of an entire family? Or Jack LaLanne and ballet slippers? In reality there is no blame to be placed for how Calvin and Elizabeth's story is derailed; a truly unfortunate accident sends upending ripples into the world in all directions. But that lack of blame is not true of the culture Elizabeth finds herself in, infuriated and constantly struggling upstream. Her boorish boss taking credit for her work, the members of the secretarial pool deriding her progressive nature and standoffishness, an academic advisor asserting his entitlement in the most gruesome of ways, the elementary school teacher taking out her frustrations on her precocious genius child - Elizabeth is constantly and derisively told this is the way of the world and there's nothing she can do. And yet, Elizabeth finds a way to fight back and assign the blame where it belongs. This juxtaposition of the two halves of her life is reflected in the practicality of her two dominant workspaces - the home kitchen she demolishes mid-pregnancy to convert to a chemistry lab, and the farce of a kitchen she cooks in for television audiences (which she cleanly rids of all artifice by inviting the studio audience to remove its props for their own homes). And it continues to surface in the subtext surrounding the seeming conflict between religion and science, a conversation Calvin begins in young adulthood that both Elizabeth and her daughter Mad resume.
+
+Calvin's sudden absence upends Elizabeth's life, but her presence upends the lives of nearly everyone around her. Her supportive neighbor Harriet, by all accounts Elizabeth's first friend after Calvin, is given the strength to leave behind an abusive husband she believe was her only option. Mrs. Frask, the adversarial personnel lackey who maligned Elizabeth at every turn until they discover an unfortunate bond, becomes one of Zott's most ardent cheerleaders. A priest who doesn't believe in God somehow finds faith. And a nation of women are empowered ostensibly by cooking, but mostly by someone finally telling them they deserve more than they've been given. By the end of the novel, challenging the status quo - not resigning yourself to fate or proclaiming "it is what it is" (my least favorite phrase of all time and worthy of its own rant) - is one of the titular lessons we can learn from chemistry itself. 
+
+> “Whenever you start doubting yourself, whenever you feel afraid, just remember. Courage is the root of change and change is what we're chemically designed to do.” 
