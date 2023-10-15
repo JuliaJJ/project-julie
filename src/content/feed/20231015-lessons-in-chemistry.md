@@ -7,7 +7,7 @@ mediaType: "book"
 url: "https://bookshop.org/p/books/lessons-in-chemistry-bonnie-garmus/19638865"
 # layout: '../../layouts/FeedPost.astro'
 ---
-I bought this book in an airport over a year ago. I probably had at least one book in my luggage at the time, but I decided I needed one more. And while it only tangentially reflects the themes of the book, the cover definitely deter people from buying it unless they were looking for (what they thought was) a syrupy romantic trope of a book with a science backdrop. I, however, am a nerdy cheeseball. The cover worked in this book's favor. And now that Apple TV+ is releasing a TV show based on the novel, it felt like time to finally dive in.
+I bought this book in an airport over a year ago. I probably had at least one book in my luggage at the time, but I decided I needed one more. And while it only tangentially reflects the themes of the book, the cover definitely could deter people from buying it unless they were looking for (what they thought was) a syrupy romantic trope of a book with a science backdrop. I, however, am a nerdy cheeseball; The cover worked in this book's favor. And now that Apple TV+ is [releasing a TV show](https://tv.apple.com/us/show/lessons-in-chemistry/umc.cmc.40yycssgxelw4zur8m2ilmvyx) based on the novel, it felt like time to finally dive in.
 
 This is not the romance you're looking for.
 
