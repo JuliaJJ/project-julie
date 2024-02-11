@@ -1,7 +1,7 @@
 ---
 title: "Getting to the Good Stuff"
 description: "The power of positive seeing"
-pubDate: "Jul 08 2023"
+pubDate: Jul 08 2023
 heroImage: "/20230708-see-the-good.jpg"
 excerpt: "The last year has been rough. Really rough. Tiny-boat-on-the-giant-wave-from-The-Perfect-Storm rough. I never doubted I would survive it, but I also didn't know how. By choice, I blew up my life. I don't regret it, but some of the challenges have been greater than expected. Some I'm still smack in the middle of, working my way through by following a poorly lit path."
 ---

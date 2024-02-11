@@ -1,7 +1,7 @@
 ---
 title: "All by myself"
 description: "Doing a thing I have never done before"
-pubDate: "Feb 22 2023"
+pubDate: Feb 22 2023
 heroImage: "/20230222-all-by-myself.jpg"
 excerpt: "When I was around eight, I came down with a case of Chicken Pox. A thing that no one seems to get anymore, that I've seen. I happened to be infected while I was visiting my dad and his wife, a woman who I'm fairly certain despised me. For most of my youth, until they divorced when I was in college, my dad and this woman lived in a house in a suburb of Austin called Pflugerville. But for a brief period they rented an older house in Austin proper, and this was where I spent my convalescence"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Mother"
 description: "The presence of an absence"
-pubDate: "Apr 29 2023"
+pubDate: Apr 29 2023
 heroImage: "/20230429-the-missing.jpg"
 excerpt: "Lately, I've been missing my mom a lot more than usual, and not just because her birthday passed a little over a week ago. Life is challenging, always but especially right now, and sometimes you just need a *mom*."
 ---

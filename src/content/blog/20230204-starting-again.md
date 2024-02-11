@@ -1,7 +1,7 @@
 ---
 title: "Starting Again"
 description: "Trying out blogging one more time, and other beginnings"
-pubDate: "Feb 4 2023"
+pubDate: Feb 4 2023
 heroImage: "/20230204-starting-again.jpg"
 excerpt: "The last year has been pretty rough. Full of changes, good and bad, with downs that turned out to be ups and anticipated ups that crashed spectacularly to Earth. I'm a person who likes to talk things through, exhaustively and even annoyingly so, and lately I've found there's rarely someone to talk to besides myself. But... there's always the power of the metaphorical pen."
 ---

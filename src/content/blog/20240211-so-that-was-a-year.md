@@ -1,7 +1,7 @@
 ---
 title: "So That Was a Year"
 description: "Twelve months, but also time is a construct"
-pubDate: “Feb 10 2024"
+pubDate: Feb 10 2024
 heroImage: "/20240211-so-that-was-a-year.jpg"
 excerpt: "I’d been meaning to write some sort of scattershot recap of my 2023 well before February of 2024, and I wish I could say it didn’t happen because I’m so incredibly busy. I’m exhausted from work and I do go out and do things like dancing or concert-ing, or stay in and do things like laundry and vacuuming and assembling expensive LEGO sets made for adults. But I’m not so busy that I couldn’t have sat down to write sooner. I’d just put it off. But then I was visited in the wee small hours of the morning by an old friend."
 ---
