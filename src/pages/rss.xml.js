@@ -11,7 +11,7 @@ export async function get(context) {
 		items: posts.map((post) => ({
 			title: `${post.data.title}`,
 			pubDate: new Date(post.data.pubDate),
-			link: `/blog/${post.slug}/`,
+			link: `/blog/${post.data.slug}/`,
 		})),
 	});
 }
