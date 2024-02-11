@@ -20,7 +20,7 @@
     "@popperjs/core": "^2.11.6",
     "astro": "^4.3.5",
     "astro-icon": "^0.8.0",
-    "svelte": "^3.55.1",
+    "svelte": "^4.0.0",
     "svelte-carousel": "^1.0.22",
     "svelte-easy-popover": "^1.0.0",
     "svelte-lanyard": "^1.0.2",
